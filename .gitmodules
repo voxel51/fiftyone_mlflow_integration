@@ -1,0 +1,3 @@
+[submodule "yolov9_mlflow"]
+	path = yolov9_mlflow
+	url = https://github.com/danielgural/yolov9_mlflow
