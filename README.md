@@ -5,12 +5,9 @@
 
 Welcome to the demo repoistory of an example workflow of MLflow integrated into the FiftyOne App!
 
-The repo consists of two main parts: 
-1. The yolov9 submodule, a forked repository from the orignial repository that now also includes MLflow hooks in a custom training script. Make sure to run the following to initialize the repo: 
-```
-git submodule init
-git submodule update
-```
+The demo consists of two main parts: 
+1. The `mlflow_fiftyone_workflow.ipynb` notebook. It will guide you through an example workflow of training with YOLOv9 using FiftyOne, Ultralytics, and MLflow!
+
 2. [The FiftyOne + MLFlow plugin](https://github.com/jacobmarks/fiftyone_mlflow_plugin), a FiftyOne plugin that brings MLFlow UI in the app as a panel, as well as track experiments and runs across your FiftyOne datasets. The plugin can be installed with:
 ```
 pip install fiftyone mlflow
