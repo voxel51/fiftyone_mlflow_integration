@@ -8,17 +8,9 @@ Welcome to the demo repoistory of an example workflow of MLflow integrated into 
 The demo consists of two main parts: 
 1. The `mlflow_fiftyone_workflow.ipynb` notebook. It will guide you through an example workflow of training with YOLOv9 using FiftyOne, Ultralytics, and MLflow!
 
-2. [The FiftyOne + MLflow plugin](https://github.com/voxel51/fiftyone_mlflow_plugin), a FiftyOne plugin that brings MLflow UI in the app as a panel, as well as track experiments and runs across your FiftyOne datasets. The plugin can be installed with:
-```
-pip install fiftyone mlflow
-fiftyone plugins download https://github.com/voxel51/fiftyone_mlflow_plugin
-```
+2. [The FiftyOne + MLflow plugin](https://github.com/voxel51/fiftyone_mlflow_plugin), a FiftyOne plugin that brings MLflow UI in the app as a panel, as well as track experiments and runs across your FiftyOne datasets as seen below!
 
-##  Needed Before Running the Demo
-
-To run the example demo, first download the test dataset. We will be using a subset of [VisDrone](https://github.com/VisDrone/VisDrone-Dataset), a top of line drone dataset. We will only be looking at the trainset as an example and the direct downlink from Google Drive can be found [here](https://drive.google.com/file/d/1a2oHjcEcwXP8oUF95qiwrqzACb2YlUhn/view).
-
-Once the repo is cloned and the dataset downloaded, you can run the [jupyter notebook](mlflow_fiftyone_workflow.ipynb). The notebook serves as a guided journey of an example workflow of monitoring and evaluating the training of models with FiftyOne and MLflow.
+<img src="./assets/view_mlflow_run.gif" alt="MLFLow Monitoring">
 
 ## Helpful Links
 
